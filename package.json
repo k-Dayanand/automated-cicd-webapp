@@ -1,0 +1,30 @@
+{
+  "name": "automated-cicd-webapp",
+  "version": "1.0.0",
+  "description": "Automated CI/CD Pipeline for a Containerized Web Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker",
+    "github-actions",
+    "aws",
+    "devops",
+    "cicd"
+  ],
+  "author": "Dayanand C K",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
